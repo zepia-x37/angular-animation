@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { StickerComponent } from './component/sticker/sticker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    StickerComponent
   ],
   imports: [
     BrowserModule,
